@@ -1,0 +1,8 @@
+{
+  "bootstrap_servers" : "localhost:9092",
+  "topic" : "twitter_kafka",
+  "acks_config" : "all",
+  "max_in_flight_conn" : "5",
+  "compression_type" : "snappy",
+  "linger_config" : "20"
+}
